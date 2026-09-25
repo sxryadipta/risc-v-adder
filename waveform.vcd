@@ -1,0 +1,593 @@
+$date
+	Fri Sep 25 07:58:15 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module tb_waveform $end
+$var wire 8 ! sum_rca [7:0] $end
+$var wire 8 " sum_cla [7:0] $end
+$var wire 8 # sum_bka [7:0] $end
+$var wire 1 $ cout_rca $end
+$var wire 1 % cout_cla $end
+$var wire 1 & cout_bka $end
+$var reg 8 ' a [7:0] $end
+$var reg 8 ( b [7:0] $end
+$var reg 1 ) cin $end
+$scope module BKA $end
+$var wire 1 * G1_0 $end
+$var wire 1 + G2_0 $end
+$var wire 1 , G3_0 $end
+$var wire 1 - G3_2 $end
+$var wire 1 . G4_0 $end
+$var wire 1 / G5_0 $end
+$var wire 1 0 G5_4 $end
+$var wire 1 1 G6_0 $end
+$var wire 1 2 G7_0 $end
+$var wire 1 3 G7_4 $end
+$var wire 1 4 G7_6 $end
+$var wire 1 5 P1_0 $end
+$var wire 1 6 P2_0 $end
+$var wire 1 7 P3_0 $end
+$var wire 1 8 P3_2 $end
+$var wire 1 9 P4_0 $end
+$var wire 1 : P5_0 $end
+$var wire 1 ; P5_4 $end
+$var wire 1 < P6_0 $end
+$var wire 1 = P7_0 $end
+$var wire 1 > P7_4 $end
+$var wire 1 ? P7_6 $end
+$var wire 8 @ a [7:0] $end
+$var wire 8 A b [7:0] $end
+$var wire 1 ) cin $end
+$var wire 1 & cout $end
+$var wire 8 B g [7:0] $end
+$var wire 1 C g0_eff $end
+$var wire 8 D p [7:0] $end
+$var wire 8 E sum [7:0] $end
+$upscope $end
+$scope module CLA $end
+$var wire 8 F a [7:0] $end
+$var wire 8 G b [7:0] $end
+$var wire 1 ) cin $end
+$var wire 8 H g [7:0] $end
+$var wire 8 I p [7:0] $end
+$var wire 8 J sum [7:0] $end
+$var wire 1 % cout $end
+$var wire 9 K c [8:0] $end
+$upscope $end
+$scope module RCA $end
+$var wire 8 L a [7:0] $end
+$var wire 8 M b [7:0] $end
+$var wire 1 ) cin $end
+$var wire 8 N sum [7:0] $end
+$var wire 1 $ cout $end
+$var wire 8 O c [7:0] $end
+$scope begin fa_chain[1] $end
+$scope module fa $end
+$var wire 1 P a $end
+$var wire 1 Q b $end
+$var wire 1 R cin $end
+$var wire 1 S cout $end
+$var wire 1 T sum $end
+$upscope $end
+$upscope $end
+$scope begin fa_chain[2] $end
+$scope module fa $end
+$var wire 1 U a $end
+$var wire 1 V b $end
+$var wire 1 W cin $end
+$var wire 1 X cout $end
+$var wire 1 Y sum $end
+$upscope $end
+$upscope $end
+$scope begin fa_chain[3] $end
+$scope module fa $end
+$var wire 1 Z a $end
+$var wire 1 [ b $end
+$var wire 1 \ cin $end
+$var wire 1 ] cout $end
+$var wire 1 ^ sum $end
+$upscope $end
+$upscope $end
+$scope begin fa_chain[4] $end
+$scope module fa $end
+$var wire 1 _ a $end
+$var wire 1 ` b $end
+$var wire 1 a cin $end
+$var wire 1 b cout $end
+$var wire 1 c sum $end
+$upscope $end
+$upscope $end
+$scope begin fa_chain[5] $end
+$scope module fa $end
+$var wire 1 d a $end
+$var wire 1 e b $end
+$var wire 1 f cin $end
+$var wire 1 g cout $end
+$var wire 1 h sum $end
+$upscope $end
+$upscope $end
+$scope begin fa_chain[6] $end
+$scope module fa $end
+$var wire 1 i a $end
+$var wire 1 j b $end
+$var wire 1 k cin $end
+$var wire 1 l cout $end
+$var wire 1 m sum $end
+$upscope $end
+$upscope $end
+$scope begin fa_chain[7] $end
+$scope module fa $end
+$var wire 1 n a $end
+$var wire 1 o b $end
+$var wire 1 p cin $end
+$var wire 1 q cout $end
+$var wire 1 r sum $end
+$upscope $end
+$upscope $end
+$scope module fa0 $end
+$var wire 1 s a $end
+$var wire 1 t b $end
+$var wire 1 ) cin $end
+$var wire 1 u cout $end
+$var wire 1 v sum $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0v
+0u
+0t
+0s
+0r
+0q
+0p
+0o
+0n
+0m
+0l
+0k
+0j
+0i
+0h
+0g
+0f
+0e
+0d
+0c
+0b
+0a
+0`
+0_
+0^
+0]
+0\
+0[
+0Z
+0Y
+0X
+0W
+0V
+0U
+0T
+0S
+0R
+0Q
+0P
+b0 O
+b0 N
+b0 M
+b0 L
+b0 K
+b0 J
+b0 I
+b0 H
+b0 G
+b0 F
+b0 E
+b0 D
+0C
+b0 B
+b0 A
+b0 @
+0?
+0>
+0=
+0<
+0;
+0:
+09
+08
+07
+06
+05
+04
+03
+02
+01
+00
+0/
+0.
+0-
+0,
+0+
+0*
+0)
+b0 (
+b0 '
+0&
+0%
+0$
+b0 #
+b0 "
+b0 !
+$end
+#10000
+1h
+1f
+1b
+1a
+1]
+1\
+1.
+1X
+1,
+1+
+1W
+1S
+1*
+1R
+0c
+1C
+18
+b100000 #
+b100000 E
+b111110 K
+0T
+0Y
+b100000 !
+b100000 N
+0^
+b11111 O
+1u
+b100000 "
+b100000 J
+1`
+1t
+b1 B
+b11110 D
+b1 H
+b11110 I
+1P
+1U
+1Z
+1s
+b10001 (
+b10001 A
+b10001 G
+b10001 M
+b1111 '
+b1111 @
+b1111 F
+b1111 L
+#20000
+1%
+1$
+1q
+b111111110 K
+1p
+11
+1l
+1&
+12
+1/
+1k
+1>
+b11111111 O
+1g
+1;
+1?
+b0 #
+b0 E
+0h
+0m
+b0 !
+b0 N
+0r
+b0 "
+b0 J
+0`
+b11111110 D
+b11111110 I
+1_
+1d
+1i
+1n
+b1 (
+b1 A
+b1 G
+b1 M
+b11111111 '
+b11111111 @
+b11111111 F
+b11111111 L
+#30000
+0$
+0q
+1r
+0p
+0l
+1m
+0k
+0g
+1h
+0f
+0b
+1c
+0a
+0]
+01
+1^
+0\
+0&
+02
+0.
+0/
+0X
+1Y
+0,
+0+
+0W
+1<
+0%
+0S
+0*
+1=
+19
+1:
+1T
+17
+16
+0R
+0C
+15
+b11111111 #
+b11111111 E
+b0 K
+b11111111 !
+b11111111 N
+1v
+b0 O
+0u
+b11111111 "
+b11111111 J
+1Q
+1V
+1[
+1`
+1e
+1j
+b0 B
+b11111111 D
+b0 H
+b11111111 I
+0P
+0U
+0Z
+0_
+0d
+0i
+0s
+b1111111 (
+b1111111 A
+b1111111 G
+b1111111 M
+b10000000 '
+b10000000 @
+b10000000 F
+b10000000 L
+#40000
+0Q
+0[
+0e
+1P
+1Z
+1d
+b1010101 (
+b1010101 A
+b1010101 G
+b1010101 M
+b10101010 '
+b10101010 @
+b10101010 F
+b10101010 L
+#50000
+1$
+1&
+12
+1q
+13
+0=
+0r
+1%
+14
+07
+06
+0:
+0>
+1p
+0R
+0c
+11
+05
+0;
+0?
+09
+0<
+0T
+0m
+1l
+0C
+b11000000 O
+0u
+b101101 "
+b101101 J
+b101101 #
+b101101 E
+b101101 !
+b101101 N
+1v
+0`
+1e
+0t
+b1000000 B
+b10101100 D
+b1000000 H
+b10101100 I
+0P
+0d
+1i
+b110000001 K
+1)
+b1100100 (
+b1100100 A
+b1100100 G
+b1100100 M
+b11001000 '
+b11001000 @
+b11001000 F
+b11001000 L
+#60000
+1c
+1m
+1T
+1a
+1,
+1/
+1W
+1\
+1f
+1k
+1R
+1^
+1]
+1r
+1C
+1*
+1-
+10
+1+
+1.
+08
+b11111111 #
+b11111111 E
+b111111111 K
+1S
+1Y
+1X
+1b
+b11111111 !
+b11111111 N
+1h
+1g
+b11111111 O
+1u
+b11111111 "
+b11111111 J
+1Q
+1[
+1`
+1o
+1t
+b11111111 B
+b0 D
+b11111111 H
+b0 I
+1P
+1U
+1_
+1d
+1s
+b11111111 (
+b11111111 A
+b11111111 G
+b11111111 M
+b11111111 '
+b11111111 @
+b11111111 F
+b11111111 L
+#70000
+0%
+0&
+02
+0Y
+0^
+0c
+0h
+0m
+0r
+0,
+0/
+03
+0W
+0\
+0a
+0f
+0k
+0p
+0$
+0*
+0-
+00
+04
+0+
+0.
+01
+0S
+0X
+0]
+0b
+0g
+0l
+b1 O
+0q
+b10 "
+b10 J
+b10 #
+b10 E
+b10 !
+b10 N
+0v
+0Q
+0V
+0[
+0`
+0e
+0j
+0o
+b1 B
+b1 H
+0P
+0U
+0Z
+0_
+0d
+0i
+0n
+b10 K
+0)
+b1 (
+b1 A
+b1 G
+b1 M
+b1 '
+b1 @
+b1 F
+b1 L
+#80000
